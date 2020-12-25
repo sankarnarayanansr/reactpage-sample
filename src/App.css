@@ -1,0 +1,90 @@
+.App {
+    text-align: center;
+}
+
+.App-logo {
+    animation: App-logo-spin infinite 20s linear;
+    height: 40vmin;
+    pointer-events: none;
+}
+
+.App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.App-link {
+    color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.custom {
+    margin-top: 10%;
+    height: 900px;
+    width: 900px;
+    margin-left: 25%;
+}
+
+.btx {
+    float: right;
+}
+
+.img-fluid:hover {
+    position: relative;
+    bottom: -50px;
+    right: -35px;
+    width: 500px;
+    height: 400px;
+    z-index: 9;
+}
+
+.timeline-panel:hover {
+    font-size: x-large;
+}
+
+.team-member:hover {
+    bottom: -90px;
+    width: 500px;
+    height: 400px;
+    z-index: 9;
+}
+
+.bty {
+    margin-top: 10%;
+}
+
+.login {
+    height: 400px;
+    width: 400px;
+    margin-top: 10%;
+    margin-left: 40%;
+    background-color: aliceblue;
+}
+
+.inp {
+    margin-top: 20%;
+    margin-left: 25%;
+}
+
+.btw {
+    margin-left: 5%;
+}
+
+.centertext {
+    margin-left: 40%;
+    font-size: xx-large;
+}
